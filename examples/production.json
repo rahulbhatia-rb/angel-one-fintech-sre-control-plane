@@ -1,0 +1,112 @@
+{
+  "eks": {
+    "workload_identity": "verified",
+    "least_privilege": "verified",
+    "requests_limits": "verified",
+    "hpa": "verified",
+    "pdb": "verified",
+    "multi_az": "verified",
+    "topology_spread": "verified",
+    "private_networking": "verified",
+    "ingress_control": "verified",
+    "approved_registry": "verified",
+    "lifecycle_owner": "verified"
+  },
+  "iac": {
+    "reusable_modules": "verified",
+    "remote_state": "verified",
+    "locking": "verified",
+    "version_pinning": "verified",
+    "plan_required": "verified",
+    "policy_validation": "verified",
+    "drift_detection": "verified",
+    "env_isolation": "verified",
+    "recovery_procedure": "verified"
+  },
+  "delivery": {
+    "tests": "verified",
+    "security_scan": "verified",
+    "immutable_artifact": "verified",
+    "gitops": "verified",
+    "progressive_rollout": "verified",
+    "production_validation": "verified",
+    "automated_rollback": "verified",
+    "deployment_marker": "verified"
+  },
+  "observability": {
+    "service_sli": "verified",
+    "availability_slo": "verified",
+    "latency_slo": "verified",
+    "error_budget": "verified",
+    "burn_rate_alerts": "verified",
+    "logs": "verified",
+    "metrics": "verified",
+    "traces": "verified",
+    "customer_impact_signal": "verified",
+    "runbook": "verified",
+    "owner": "verified"
+  },
+  "resilience": {
+    "rto": "verified",
+    "rpo": "verified",
+    "backup": "verified",
+    "restore_test": "verified",
+    "multi_az": "verified",
+    "dependency_failure_mode": "verified",
+    "failover_test": "verified",
+    "game_day": "verified",
+    "bc_owner": "verified"
+  },
+  "incident": {
+    "severity_model": "verified",
+    "incident_commander": "verified",
+    "timeline": "verified",
+    "mitigation_owner": "verified",
+    "customer_impact": "verified",
+    "rca_owner": "verified",
+    "permanent_corrective_action": "verified",
+    "regression_guard": "verified",
+    "followup_deadline": "verified"
+  },
+  "security": {
+    "iam_least_privilege": "verified",
+    "rbac": "verified",
+    "secrets_manager": "verified",
+    "encryption_at_rest": "verified",
+    "encryption_in_transit": "verified",
+    "audit_evidence": "verified",
+    "vulnerability_scan": "verified",
+    "network_segmentation": "verified",
+    "break_glass": "verified"
+  },
+  "capacity_cost": {
+    "capacity_model": "verified",
+    "headroom_threshold": "verified",
+    "saturation_signal": "verified",
+    "scaling_limit": "verified",
+    "dependency_capacity": "verified",
+    "cost_owner": "verified",
+    "budget_alert": "verified",
+    "rightsizing_review": "verified",
+    "purchase_model_decision": "verified"
+  },
+  "aiops": {
+    "read_only_default": "verified",
+    "tool_boundaries": "verified",
+    "no_default_prod_mutation": "verified",
+    "human_approval": "verified",
+    "audit_trail": "verified",
+    "sensitive_data_redaction": "verified",
+    "evidence_attached": "verified",
+    "deterministic_fallback": "verified"
+  },
+  "leadership": {
+    "service_owner": "verified",
+    "architecture_review": "verified",
+    "operational_readiness_review": "verified",
+    "exception_owner": "verified",
+    "exception_expiry": "verified",
+    "knowledge_transfer": "verified",
+    "cross_team_dependency_owner": "verified"
+  }
+}
